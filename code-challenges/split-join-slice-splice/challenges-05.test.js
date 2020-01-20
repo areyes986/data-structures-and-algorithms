@@ -14,12 +14,14 @@ For example, if the input is 'Welcome', the output will be:
 ------------------------------------------------------------------------------------------------ */
 
 const howMuchPencil = (str) => {
-  // str.forEach() => {
-  //   let result = [];
-  //   str.slice()
-  //   result.push(str);
-  // }
-  // return result;
+  let newArr = [];
+  newArr.push(str);
+  let splitStr = str.split('');
+  splitStr.forEach((element, idx) => {
+    let sliced = str.slice(++idx)
+    newArr.push(sliced);
+  });
+  return newArr
 };
 
 /* ------------------------------------------------------------------------------------------------
