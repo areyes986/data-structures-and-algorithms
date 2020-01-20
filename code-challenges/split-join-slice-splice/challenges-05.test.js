@@ -14,12 +14,14 @@ For example, if the input is 'Welcome', the output will be:
 ------------------------------------------------------------------------------------------------ */
 
 const howMuchPencil = (str) => {
-  // str.forEach() => {
-  //   let result = [];
-  //   str.slice()
-  //   result.push(str);
-  // }
-  // return result;
+  let newArr = [];
+  newArr.push(str);
+  let splitStr = str.split('');
+  splitStr.forEach((element, idx) => {
+    let sliced = str.slice(++idx)
+    newArr.push(sliced);
+  });
+  return newArr
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -92,7 +94,7 @@ You may also use other string or array methods.
 
 const splitFoods = (recipe) => {
   let result = [];
-  // Solution code here...
+  
   return result;
 };
 
@@ -108,7 +110,11 @@ Return a new array containing just the verbs. For example, ['Mix until evenly di
 
 const stepActions = (recipe) => {
   let result = [];
-  // Solution code here...
+  let recipeVerb = recipe.steps;
+  recipeVerb.forEach((element) => {
+    let split = element.split(' ');
+    result.push(split[0]);
+  })
   return result;
 };
 
@@ -126,7 +132,13 @@ For example:
 ------------------------------------------------------------------------------------------------ */
 
 const removeEvenValues = (arr) => {
-  // Solution code here...
+for (let i = 0; i < arr.length; i++){
+  if (arr[i] % 2 === 0){
+    arr.splice(i,1)
+    i--;
+  }
+}
+return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -145,7 +157,7 @@ removeLastCharacters('Gregor', 9) returns ''
 ------------------------------------------------------------------------------------------------ */
 
 const removeLastCharacters = (str, numberOfCharacters) => {
-  // Solution code here...
+  return numberOfCharacters > 0 ? str.slice(0,-numberOfCharacters) : str;
 };
 
 
@@ -171,7 +183,9 @@ For example, removeVowels('gregor') returns 'grgr'.
 ------------------------------------------------------------------------------------------------ */
 
 const removeVowels = (str) => {
-  // Solution code here...
+let regex = /[aeiou]/g;
+let string = str.replace(regex,'')
+return string;
 };
 
 /* ------------------------------------------------------------------------------------------------
