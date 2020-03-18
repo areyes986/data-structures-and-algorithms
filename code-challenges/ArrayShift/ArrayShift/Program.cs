@@ -14,22 +14,25 @@ namespace ArrayShift
         static int[] InsertShiftArray(int[]array, int value)
         {
             int[] newArray = new int[array.Length + 1];
-            decimal middleArray = Math.Ceiling(newArray.Length / 2m);
-            int val = 0;
-
+            decimal middleArray = Math.Floor(newArray.Length / 2m);
+            int index = 0;
 
             for (int i = 0; i < newArray.Length; i++)
             {
-                if (middleArray == i )
+                if (middleArray == i)
                 {
                     newArray[i] = value;
-                    val--;
+                    index--;
                 }
+
                 else
                 {
-                    val++;
+                    newArray[i] = array[index];
                 }
+                index++;
             }
+
+            Console.WriteLine(String.Join(", ", newArray));
             return newArray;
         }
     }
