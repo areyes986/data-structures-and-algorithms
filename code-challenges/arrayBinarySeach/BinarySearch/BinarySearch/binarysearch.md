@@ -22,7 +22,7 @@ Create a method that takes in 2 parameters. One is an array, the other a search 
 
 
 ### Whiteboard Visual
-![Array Shift](/assets/binarysearch.png)
+![Array Shift](../../../../assets/binarysearch.png)
 
 
 ---

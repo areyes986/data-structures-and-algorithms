@@ -3,9 +3,10 @@
     "",
     "\\assets",
     "\\code-challenges",
-    "\\code-challenges\\ArrayShift",
-    "\\code-challenges\\ArrayShift\\ArrayShift"
+    "\\code-challenges\\arrayBinarySeach",
+    "\\code-challenges\\arrayBinarySeach\\BinarySearch",
+    "\\code-challenges\\arrayBinarySeach\\BinarySearch\\BinarySearch"
   ],
-  "SelectedNode": "\\assets\\arrayshift.jpg",
+  "SelectedNode": "\\assets\\binarysearch.png",
   "PreviewInSolutionExplorer": false
 }
