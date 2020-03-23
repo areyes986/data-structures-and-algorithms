@@ -1,0 +1,11 @@
+C:\Users\areye\codefellows\data-structures-and-algorithms\code-challenges\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.exe
+C:\Users\areye\codefellows\data-structures-and-algorithms\code-challenges\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.deps.json
+C:\Users\areye\codefellows\data-structures-and-algorithms\code-challenges\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.runtimeconfig.json
+C:\Users\areye\codefellows\data-structures-and-algorithms\code-challenges\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.runtimeconfig.dev.json
+C:\Users\areye\codefellows\data-structures-and-algorithms\code-challenges\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.dll
+C:\Users\areye\codefellows\data-structures-and-algorithms\code-challenges\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.pdb
+C:\Users\areye\codefellows\data-structures-and-algorithms\code-challenges\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.csprojAssemblyReference.cache
+C:\Users\areye\codefellows\data-structures-and-algorithms\code-challenges\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.AssemblyInfoInputs.cache
+C:\Users\areye\codefellows\data-structures-and-algorithms\code-challenges\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.AssemblyInfo.cs
+C:\Users\areye\codefellows\data-structures-and-algorithms\code-challenges\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.dll
+C:\Users\areye\codefellows\data-structures-and-algorithms\code-challenges\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.pdb
