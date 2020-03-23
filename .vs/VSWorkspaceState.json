@@ -5,8 +5,11 @@
     "\\code-challenges",
     "\\code-challenges\\arrayBinarySeach",
     "\\code-challenges\\arrayBinarySeach\\BinarySearch",
-    "\\code-challenges\\arrayBinarySeach\\BinarySearch\\BinarySearch"
+    "\\code-challenges\\arrayBinarySeach\\BinarySearch\\BinarySearch",
+    "\\code-challenges\\LinkedList",
+    "\\code-challenges\\LinkedList\\LinkedList",
+    "\\code-challenges\\LinkedList\\LinkedListTests"
   ],
-  "SelectedNode": "\\assets\\binarysearch.png",
+  "SelectedNode": "\\code-challenges\\LinkedList\\linkedlist.md",
   "PreviewInSolutionExplorer": false
 }
