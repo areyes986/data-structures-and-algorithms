@@ -167,6 +167,22 @@ namespace LinkedListTests
 
         }
 
+        [Fact]
+        public void CanAppendNewNodeAtEndOfList()
+        {
+            LinkList link = new LinkList();
+            link.Append(20);
+            link.Append(43);
+            link.Append(2);
+            link.Append(42);
+
+            string newString = link.ToString();
+
+            string expected = $"20 -> 43 -> 2 -> 42 -> NULL";
+            Assert.Equal(expected, newString);
+
+
+        }
 
     }
 }

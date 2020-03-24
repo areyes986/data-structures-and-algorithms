@@ -3,3 +3,4 @@
 - [Array Shift](./code-challenges/ArrayShift/arrayshift.md)  
 - [Binary Search](./code-challenges/arrayBinarySeach/BinarySearch/BinarySearch/binarysearch.md)
 - [Linked List](./code-challenges/LinkedList/linkedlist.md)
+- [Insert Before](./code-challenges/LinkedList/insertBefore.md)
