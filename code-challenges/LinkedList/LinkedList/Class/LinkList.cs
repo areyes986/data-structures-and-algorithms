@@ -65,6 +65,72 @@ namespace LinkedList.Class
             return sb.ToString();
         }
 
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="value"></param>
+        public void Append(int value)
+        {
+            Current = Head;
+
+            
+            if (Head == null)
+            {
+                Node node = new Node();
+                node.Value = value;
+                Head = node;
+            }
+            while (Current != null)
+            {
+            if (Current.Next == null)
+            {
+                Node node = new Node();
+                node.Value = value;
+                Current.Next = node;
+                break;
+            }
+                Current = Current.Next;
+            }
+
+        }
+
+        /// <summary>
+        /// This method inserts a node with a new value before a value
+        /// </summary>
+        /// <param name="value"> value in list </param>
+        /// <param name="newValue"> the new inputted value </param>
+        public void InsertBefore(int value, int newValue)
+        {
+            // set current to head
+            Current = Head;
+            // create a new node
+            Node node = new Node();
+            //set that value to a newvalue
+            node.Value = newValue;
+
+            // if 
+            if (Head.Value == value)
+            {
+                Insert(newValue);
+                return;
+            }
+
+            // traversing until next isnt null
+            while (Current.Next != null)
+            {
+                // if the next value = to the value we are searching for
+                if (Current.Next.Value == value)
+                {
+                    // then that node next = to current next
+                    node.Next = Current.Next;
+                    // then current next = newly made node
+                    Current.Next = node;
+                }
+                // current will keep going to next to traverse
+                Current = Current.Next;
+            }
+        }
     }
 
 
