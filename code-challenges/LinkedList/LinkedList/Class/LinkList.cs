@@ -131,6 +131,44 @@ namespace LinkedList.Class
                 Current = Current.Next;
             }
         }
+
+        /// <summary>
+        /// This method had 2 while loops. The first one gets the length of the list, 
+        /// Then that counter is minused from k. The other while loop increments a new counter and if
+        /// the newcounter equals the newly reassigned counter, that should be the node we are looking for
+        /// and returns the nodes value.
+        /// </summary>
+        /// <param name="k"> inputted argument that acts as an index </param>
+        /// <returns></returns>
+        public int KthFromEnd(int k)
+        {
+            Current = Head;
+
+            int counter = 0;
+            int newCounter = 0;
+
+            while (Current != null)
+            {
+                counter++;
+                Current = Current.Next;
+            }
+
+            Current = Head;
+            counter = counter - k;
+
+            while (Current != null)
+            {
+                newCounter++;
+                if (newCounter == counter)
+                {
+                    return Current.Value;
+                }
+                Current = Current.Next;
+            }
+
+            throw new Exception ("Sorry, you are out of range.");
+
+        }
     }
 
 
