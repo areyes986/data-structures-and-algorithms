@@ -1,4 +1,4 @@
-# Array Shift
+# Kth At The End
 
 *Author: Allyson Reyes and Jin Woo Kim*
 
@@ -12,7 +12,7 @@ Create a method that takes in one parameter
 ### Inputs and Expected Outputs
 
 | Input | Arg |Expected Output |
-| :----------- | :----------- |
+| :----------- | :----------- | :----------- |
 | H -> [3] -> [7] -> [10] -> [2] -> X | 2 | 7 |
 
 
