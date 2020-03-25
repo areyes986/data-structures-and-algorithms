@@ -23,7 +23,7 @@ Create a method that takes in one parameter
 O(n)2, because we have to traverse two times using two while loops.
 
 ### Whiteboard Visual
-![Kth At The End](../../../assets/kthAtTheEnd.png)
+![Kth At The End](../../assets/kthAtTheEnd.png)
 
 
 ---
