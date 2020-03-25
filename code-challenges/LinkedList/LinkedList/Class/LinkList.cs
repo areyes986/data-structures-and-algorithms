@@ -166,7 +166,7 @@ namespace LinkedList.Class
                 Current = Current.Next;
             }
 
-            throw new Exception("Sorry, you are out of range.");
+            throw new Exception ("Sorry, you are out of range.");
 
         }
     }
