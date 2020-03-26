@@ -5,4 +5,4 @@
 - [Linked List](./code-challenges/LinkedList/linkedlist.md)
 - [Insert Before](./code-challenges/LinkedList/insertBefore.md)
 - [Kth At The End](./code-challenges/LinkedList/Kth.md)
-- [Merge Linked Lists](./code-challenges/LLMerge/README.md)
+- [Merge Linked Lists](./code-challenges/LLMerge/LLMerge.md)
