@@ -19,6 +19,8 @@ namespace LinkedList
             Console.WriteLine(result);
 
             Console.WriteLine(link.ToString());
+
+            Console.WriteLine(link.KthFromEnd(2));
         }
 
     }

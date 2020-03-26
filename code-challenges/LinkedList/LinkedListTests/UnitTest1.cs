@@ -180,9 +180,70 @@ namespace LinkedListTests
 
             string expected = $"20 -> 43 -> 2 -> 42 -> NULL";
             Assert.Equal(expected, newString);
-
-
         }
+
+        [Fact]
+        public void ShowsExceptionWhenKIsGreaterThanList()
+        {
+            LinkList link = new LinkList();
+            link.Append(20);
+            link.Append(43);
+            link.Append(2);
+            link.Append(42);
+
+            Exception error = Record.Exception(() => link.KthFromEnd(10));
+            Assert.IsType<Exception>(error);
+        }
+
+        [Fact]
+        public void KAndListLengthAreTheSame()
+        {
+            LinkList link = new LinkList();
+            link.Append(20);
+            link.Append(43);
+            link.Append(2);
+            link.Append(42);
+
+            Exception error = Record.Exception(() => link.KthFromEnd(4));
+            Assert.IsType<Exception>(error);
+        }
+
+        [Fact]
+        public void KIsNotAPosInt()
+        {
+            LinkList link = new LinkList();
+            link.Append(20);
+            link.Append(43);
+            link.Append(2);
+            link.Append(42);
+
+            Exception error = Record.Exception(() => link.KthFromEnd(-1));
+            Assert.IsType<Exception>(error);
+        }
+
+        [Fact]
+        public void ListIsSizeOfOne()
+        {
+            LinkList link = new LinkList();
+            link.Append(20);
+
+            int length = link.KthFromEnd(0);
+            Assert.Equal(20, length);
+        }
+
+        [Fact]
+        public void KNotInEndButInMiddle()
+        {
+            LinkList link = new LinkList();
+            link.Append(20);
+            link.Append(43);
+            link.Append(2);
+            link.Append(42);
+
+            int middle = link.KthFromEnd(2);
+            Assert.Equal(43, middle);
+        }
+
 
     }
 }
