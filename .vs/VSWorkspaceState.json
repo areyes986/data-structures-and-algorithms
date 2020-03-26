@@ -1,7 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
     "\\code-challenges",
     "\\code-challenges\\arrayBinarySeach",
     "\\code-challenges\\arrayBinarySeach\\BinarySearch",
@@ -10,6 +9,6 @@
     "\\code-challenges\\LinkedList\\LinkedList",
     "\\code-challenges\\LinkedList\\LinkedListTests"
   ],
-  "SelectedNode": "\\code-challenges\\LinkedList\\linkedlist.md",
+  "SelectedNode": "\\code-challenges",
   "PreviewInSolutionExplorer": false
 }
